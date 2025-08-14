@@ -1,0 +1,45 @@
+.academics {
+  margin: 2rem auto;           /* Centers the section horizontally */
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  max-width: 700px;            /* Keeps same width as other sections */
+  text-align: center;          /* Centers inline content like text */
+}
+
+.academics h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.academics ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.academic-item {
+  display: flex;
+  justify-content: space-between;  /* Keep three items spaced evenly */
+  align-items: center;
+  padding: 0.8rem;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 1rem;
+  color: #555;
+}
+
+.academic-item:last-child {
+  border-bottom: none;
+}
+
+.institution {
+  font-weight: bold;
+  color: #69c9d3;
+  flex: 1;
+  text-align: left;
+}
+
+.year, .score {
+  flex: 0.5;
+}

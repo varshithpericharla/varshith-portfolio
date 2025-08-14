@@ -1,0 +1,19 @@
+.about {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

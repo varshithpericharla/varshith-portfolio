@@ -1,0 +1,64 @@
+.training {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.training h2 {
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.training ul {
+  list-style: none;
+  padding: 0;
+}
+
+.course-item {
+  display: flex; /* makes arrow stay on right end */
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+/* Left side: image + text info together */
+.cert-info {
+  display: flex;
+  align-items: center;
+}
+
+.cert-thumb {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-right: 1rem;
+  border: 1px solid #ddd;
+}
+
+.cert-text strong {
+  color: #69c9d3;
+  display: block;
+}
+
+.provider {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Right side: arrow link */
+.cert-link a {
+  font-size: 1.5rem; /* Arrow size */
+  text-decoration: none;
+  color: #69c9d3; /* <— Change arrow color here */
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.cert-link a:hover {
+  transform: translateX(3px);
+  color: #69c9d3; /* <— Hover color here */
+}
